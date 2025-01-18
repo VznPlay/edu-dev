@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Indicações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="vapo" class="container">
+        <h1> PARA SALVAR INDICADOS </h1>
+        <div class="form-container">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite o nome da pessoa">
+            <label for="indicacoes">Quantidade de Indicações:</label>
+            <input type="number" id="indicacoes" placeholder="Digite a quantidade de indicações">
+            <button onclick="adicionarIndicado()">Adicionar Indicação</button>
+        </div> <br>
+
+        <div class="resultado">
+            <h2>Indicações</h2>
+            <ul id="listaIndicacoes"></ul>
+            <h3>Total de Indicações: <span id="totalIndicacoes">0</span></h3>
+            <br> 
+
+            <h2>QUANTIDADE PARA DESBLOQUEIO DE PREMIO</h2> <br>
+            <h3>PIX 150: >>> <span>Acima De ( 60 ) Clientes</span></h3>
+            <h3>SEGUNDA TV: >>>  <span>Acima De ( 110 ) Clientes</span></h3>
+            <h3>CELULAR: >>>  <span>Acima De ( 145 ) Clientes</span></h3>
+            <h3>PIX 200: >>>  <span>Acima De ( 150 ) Clientes</span></h3>
+            <h3>PIX 50: >>>  <span>Acima De ( 150 ) Clientes</span></h3>
+            
+        </div>
+    </div>
+    <br> <br> <br>
+
+    <script src="script.js"></script>
+</body>
+</html>
